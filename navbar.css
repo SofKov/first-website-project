@@ -1,0 +1,98 @@
+/* Main menu settings */
+#centeredmenu {
+    clear:both;
+    float:left;
+    margin:0;
+    padding:10px;
+    border-top:1px solid floralwhite;
+    border-bottom:1px solid floralwhite; /* black line below menu */
+    width:100%;
+    font-family:'Teko', sans-serif; /* Menu font */
+    font-size:32px; /* Menu text size */
+    z-index:1000; /* This makes the dropdown menus appear above the page content below */
+    position:relative;
+}
+
+ /* Top menu items */
+#centeredmenu ul {
+    margin:0;
+    padding:10px;
+    list-style:none;
+    float:right;
+    position:relative;
+    right:50%;
+}
+#centeredmenu ul li {
+    margin:0 0 0 1px;
+    padding:0;
+    float:left;
+    position:relative;
+    left:50%;
+    top:1px;
+    width:10em;
+}
+#centeredmenu ul li a {
+    display:block;
+    margin:0;
+    padding:.6em .5em .4em;
+    font-size:1em;
+    line-height:1em;
+    background:#1b1b1b;
+    text-decoration:none;
+    color:floralwhite;
+    font-family:'Teko', sans-serif; /* Menu font */
+    font-size:32px;
+}
+
+
+#centeredmenu ul li a:hover {
+    background:#0098fd; /* Top menu items background colour */
+}
+#centeredmenu ul li:hover a,
+#centeredmenu ul li.hover a { /* This line is required for IE 6 and below */
+    background:#0098fd; /* Top menu items background colour */
+}
+
+ /* Submenu items */
+#centeredmenu ul ul {
+    display:none; /* Sub menus are hiden by default */
+    position:fixed;
+    right:auto; /*resets the right:50% on the parent ul */
+    width:10em; /* width of the drop-down menus */
+}
+#centeredmenu ul ul li {
+    left:auto;  /*resets the left:50% on the parent li */
+    margin:0; /* Reset the 1px margin from the top menu */
+    clear:left;
+    width:100%;
+}
+#centeredmenu ul ul li a,
+#centeredmenu ul li.active li a,
+#centeredmenu ul li:hover ul li a,
+#centeredmenu ul li.hover ul li a { /* This line is required for IE 6 and below */
+    font-family:'Teko', sans-serif; /* Menu font */
+    font-size:32px;
+    font-weight:normal; /* resets the bold set for the top level menu items */
+    background:#1b1b1b9d;
+    color:floralwhite;
+    line-height:1.4em; /* overwrite line-height value from top menu */
+}
+#centeredmenu ul ul li a:hover,
+#centeredmenu ul li.active ul li a:hover,
+#centeredmenu ul li:hover ul li a:hover,
+#centeredmenu ul li.hover ul li a:hover { /* This line is required for IE 6 and below */
+    background:rgb(77, 77, 77); /* Sub menu items background colour */
+    color:floralwhite;
+}
+
+ /* Flip the last submenu so it stays within the page */
+#centeredmenu ul ul.last {
+    left:auto; /* reset left:0; value */
+    right:0; /* Set right value instead */
+}
+
+ /* Make the sub menus appear on hover */
+#centeredmenu ul li:hover ul,
+#centeredmenu ul li.hover ul { /* This line is required for IE 6 and below */
+    display:block; /* Show the sub menus */
+}

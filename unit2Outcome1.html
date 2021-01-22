@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoirt" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <title>Outcome 1 - Kov's Coding</title> 
+</head>
+
+
+<body>
+    <div class="borderpage"></div>
+        <div>
+            <a href="https://www.facebook.com/kovs.coding/" target="_blank" class="fa fa-facebook"> </a>
+            <a href="https://github.com/SofKov/CodeNationProjects" target="_blank" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/sofiakovalevskaia/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://twitter.com/CodingKov" target="_blank" class="fa fa-twitter"></a>
+        </div>
+    <div class="borderpage"></div>
+    <div>
+        <h1>[Kov's Coding Project]</h1> 
+    </div>
+    <div id="centeredmenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="unit1Main.html">Unit 1</a>
+                <ul>
+                    <li><a href="unit1Outcome1.html">Outcome 1</a></li>
+                    <li><a href="unit1Outcome2.html">Outcome 2</a></li>
+                    <li><a href="unit1Outcome3.html">Outcome 3</a></li>
+                </ul>
+            </li>
+            <li><a href="unit2Outcome1.html">Unit 2</a></li>
+        </ul>
+    </div>
+
+
+    <div>
+        <img class="centerimg" src="images/hometitle1.png" alt="Revised Code Nation Logo for project">
+    </div>
+
+
+    <br>
+
+    <div>
+        <h2>[Unit 2: Outcome 1 - Create structures and styles for a webpage]</h2>
+        
+        <br>
+        <br>
+        <br>
+        <h3>1.5 Describing copyright and other constraints affecting websites</h3>
+        <p>As with GDPR compliance discussed in Unit 1, breach of copyright is a good way of ensuring a project is terminated or damaged, and this also includes websites. To understand copyright, we first need to understand intellectual property.</p>
+
+        <p>To quote the GOV.uk article on intellectual property and your work:</p>
+            
+        <p>“Having the right type of intellectual property protection helps you to stop people stealing or copying:</p>
+            <ul>
+                <li>the names of your products or brands</li>
+                <li>your inventions</li>
+                <li>the design or look of your products</li>
+                <li>things you write, make or produce</li>
+            </ul>
+            
+        <p>Copyright, patents, designs and trademarks are all types of intellectual property protection. You get some types of protection automatically, others you have to apply for.<a id="jump" href="#ref">[1]</a>”</p>
+            
+        <p>Copyright is one of these types of intellectual property you have to apply for, and the extent of its protection is so that it prevents people from (without your express consent)copying your work outright, creating derivatives from your work, distributing copies of the work to the public or displaying them. Publishing on behalf of or with permission of the original holder involves clearly labelling with the appropriate information, otherwise a legal dispute can be opened against the publisher.</p>
+
+        <p>In terms of a website this could mean the content you choose to use is affected - images, video files and audio. Branding is, naturally, a facet of this and originally, I had intended to use codenation’s logo in order to create a new graphic. As I am a student at Code Nation, and the website I designed is a project for Code Nation, the use of their branding is permitted. Beyond that, I intend on using images I have made myself, or using royalty free stock photos as a placeholder. As site layout involves coding from scratch, there is no issue in using a similar layout as another website.</p>
+
+
+        <br>
+        <h3>1.6 Describing access issues that need taking into account</h3>
+        <p>When discussing website accessibility, my primary concern would be visibility. My original idea was to make the website look similar to any source code editor, which would include a dark background, with light/white coloured font against it.</p>
+        
+        <p>Thus, in the example of my own website, I would firstly need to ensure that the font is clear and legible. I decided to use Teko (sans-serif) font for the all headings (h1-h6) and the navbar, while using a more common Roboto (monospace) font for the remaining body of content. The former used the colour “floralwhite” and latter used “white”. These kinds of typefaces should make it easier for people who have difficulty distinguishing dark letters on a bright background, white or otherwise.</p>
+            
+        <p>Greater challenges come in the form of colour blindness, whilst a font is manageable, ensuring the user has a better browsing experience is largely based around taste and good colour schemes. Having a green background would look unappealing to someone who visually see’s green as a brown tone for example. Hence the simplistic theme for my website. I have created hover functions in CSS so that some of the buttons change colour to either yellow or blue when looking to select them, but I did test the ease-of-use of the colours on my friend, who has a rare version of deuteranopia<a id="jump" href="#ref">[2]</a>, and he was still able to differentiate the hover colours from the original white shades. Although I realise this is not a full-proof test, for a project of this type, it is an encouraging result.</p>
+
+        <p>Another aspect of accessibility important to consider is alt text for images. This descriptive text acts as a cue for people with visual impairments, usually attached to the image in the HTML code<a id="jump" href="#ref">[3]</a>. As my website only includes one image of my website mindmap, and the codenation logo, this was relatively easy to implement. However, any website designer needs to remember that, even though an image could be simply decorative, and thus not require any alt text to describe it, the code should still include <strong>alt="”</strong> at the end inside the <strong>< img src=”” ></strong> tag, to optimise accessibility of their website. This is done so that when a screen reader comes across the image with a null alt text, it does not end up reading the file name for the image, but instead, skip over the image entirely.</p>
+
+
+        <br>
+        <h3>1.7 Describe which are the appropriate filetypes for websites</h3>
+        <p>Websites have the capability to host a variety of files to be downloaded, but items that actually display on a website are a different matter. Firstly, the image files. Most, if not all, websites can host image files; JPEG, GIF and PNG, the inherent differences between JPEG and PNGs being the image quality, with JPEGs loading faster on a webpage, but being compressed in quality compared to PNG, which offers a robust quality and consequently, a larger file size. GIF itself can vary in terms of quality as it is a captured sequence of images that play in order – similar to a video without being as large as one and being much more compressed in terms of quality<a id="jump" href="#ref">[4]</a>.</p>
+        
+        <p>Another visual file type is an SVG, which stands for Scalable Vector Graphic, which can be made multipurpose due to the vector never losing its level of quality when artificially or manually shrunk or enlarged. Best used in web design for business, to allow for higher quality logos, icons, diagrams, illustrations, etc.</p>
+        
+        <p>Another type of visual based file format is video. Video needs to specifically be hosted by a site, and in some instances a site owner may choose to simply have the file presented as a downloadable, that said the types are: AVI, WMV, FLV, MOV, & MP4. Typically, all these file types can be uploaded to a video hosting site such as YouTube, and then embedded in your website by using the appropriate HTML code when providing a link to it.</p>
+
+        <p>Audio files are also common for websites to host, whether it's for music or podcasts. Usually the format is either MP3 or WAV. Wav files are the format you want when you want to keep the highest level of sound quality, but they also suffer the drawback of being large. MP3 operates in the opposite way, it’s a smaller file format but audio quality is unfortunately compressed a little to compromise.</p>
+
+        <p>Finally, there is the use of PDF (Portable Document Format) files. Created by Adobe, this file type is used for easier formatting of online documents and printing purposes. PDF files can contain many different elements discussed above - text, images, SVGs, video and even audio files, as well as more interactive elements like forms and buttons. In terms of web design, PDFs are best used for online forms, sharing and printing of documents, but your intended user of the website would require a PDF reader to be installed on their device to open the PDF file.</p>
+        <br>
+    </div>
+
+    <div>
+        <h4>REFERENCES</h4>
+        <br>
+        <p><a class="formatref" id="ref" href="https://www.gov.uk/intellectual-property-an-overview" target="_blank">[1] www.gov.uk/intellectual-property-an-overview</a></p>
+        <p><a class="formatref" id="ref" href="https://www.color-blindness.com/deuteranopia-red-green-color-blindness/" target="_blank">[2] www.color-blindness.com/deuteranopia-red-green-color-blindness/</a></p>
+        <p><a class="formatref" id="ref" href="]https://support.siteimprove.com/hc/en-gb/articles/115000013031-Accessibility-Image-Alt-text-best-practices" target="_blank">[3] support.siteimprove.com/hc/en-gb/articles/115000013031-Accessibility-Image-Alt-text-best-practices</a></p>
+        <p><a class="formatref" id="ref" href="https://www.wix.com/blog/2018/07/different-types-of-files" target="_blank">[4] www.wix.com/blog/2018/07/different-types-of-files</a></p>
+    </div>
+
+<br>  
+<br>
+<br>
+<br>
+<div class="borderpage"></div>
+    <div>
+        <a href="https://www.facebook.com/kovs.coding/" target="_blank" class="fa fa-facebook"> </a>
+        <a href="https://github.com/SofKov/CodeNationProjects" target="_blank" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/sofiakovalevskaia/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/CodingKov" target="_blank" class="fa fa-twitter"></a>
+    </div>
+<div class="borderpage"></div>
+</body>
+</html>

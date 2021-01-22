@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+}
+
+*{background-color: #1b1b1b;}
+body{margin: 0;}
+
+.centertxt{text-align: center;}
+.justify{text-align: justify;}
+.formatref{
+    text-decoration: none;
+    font-size: 11px;
+}
+.centerimg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom:0;
+}
+.centerresizeimg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom:40px;
+    width:30%;
+}
+
+.borderpage{
+    margin:5px 0px 5px;
+    border-bottom: 1px solid floralwhite;
+    width: 100vw;
+}
+
+.fa{
+    padding: 5px;
+    font-size:20px;
+    width: 20px;
+    text-align:left;
+    text-decoration:none;
+    color:floralwhite;
+    margin:10px 5px 5px;
+    
+}
+.fa:hover{color:#fdcf00;}
+
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 120px;
+    color:floralwhite;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+h2{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size:45px;
+    color: floralwhite;
+    margin: 0;
+}
+
+
+h3{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size:38px;
+    color: floralwhite;
+    margin:10px 100px 10px;
+}
+
+#h3l:link{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+#h3l:visited{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+#h3l:hover{
+    color:#fdcf00;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color:white;
+    text-align: justify;
+    margin:15px 300px 15px;
+}
+
+ol{
+    padding: 5px;
+    margin:20px 400px 20px;
+
+}
+
+ol li{
+    display:list-item;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color:white;
+}
+
+ul{
+    padding: 5px;
+    margin:20px 400px 20px;
+
+}
+
+ul li{
+    display:list-item;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color:white;
+}
+
+
+
+h4{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size:25px;
+    color: floralwhite;
+    margin:10px;
+}
+
+
+
+#jump{color:#0098fd;}
+#jump:hover{color:#fdcf00;}
+
+#ref{color:white;}
+#ref:hover{color:#0098fd;}
